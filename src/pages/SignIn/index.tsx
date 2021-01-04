@@ -31,7 +31,7 @@ const SignIn: React.FC = () => {
   const navigation = useNavigation();
   const handleSignIn = useCallback((data: object) => {
     console.log(data); // fixme
-  });
+  }, []);
 
   return (
     <>
